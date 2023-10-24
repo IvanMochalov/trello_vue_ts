@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import BoardAddBtn from '../components/BoardAddBtn.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <q-page>
+    <BoardAddBtn />
+  </q-page>
 </template>
